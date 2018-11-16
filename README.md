@@ -109,3 +109,9 @@ password: tiger
 ## Redis
 
 It comes with Redis. It runs on default port `6379`.
+
+## xDebug
+
+In order to use xDebug with PHPStorm and a Mac you need to execute this command:
+
+`sudo ifconfig en0 alias 10.254.254.254 255.255.255.0`
